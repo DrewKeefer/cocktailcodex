@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 5px;
+    border: none;
+    font-family: "Futura", sans-serif;
+    box-sizing: border-box;
+}
+  
+body {
+    font-size: 14px;
+    background-color: #131313;
+}
+
+.header {
+    height: 10%;
+    color: lightgrey;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 0px;
+}
+
+/* Buttons */
+
+.btn{
+    display: inline-block;
+    border: 1px solid lightgray;
+    color: lightgray;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.15s;
+    background-color: transparent;
+    font-size: 100%;
+}
+
+.btn:hover{
+    color: darkgray;
+    border-color: darkgray;
+}
+
+.inList{
+    color: #131313;
+    background-color: lightgray;
+}
+
+.inList:hover{
+    color:darkgray;
+}
+
+/* Recipe Styler */
+
+.name{
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.ing{
+    font-weight: normal;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+li:not(:last-child) {
+    padding-bottom: 0px;
+}
+
+ul.ing > li{
+    text-indent: -15px;
+}
+
+ul.ing > li:before{
+    content: "--    ";
+}
+
+.directions{
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+/* Left Column */
+
+.left-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    grid-gap: 1em;
+    padding: 10px;
+}
+
+.ingHeader{
+    color: lightgrey;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-top: 25px;
+}
+
+.addBtn{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.category{                      /* depreciated */
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-style: italic;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* Right Column */
+
+.right-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 1em;
+    padding: 10px;
+    color: lightgrey;
+}
+
+
+/* COLUMN BACKEND */
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 3px;
+
+}
+
+/* Left and right column spacing */
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+.column {
+    width: 100%;
+}
+.left{
+    border-bottom: 1px solid lightgray;
+}
+.right-wrapper{
+    grid-template-columns: repeat(auto-fill, 100%);
+}
+}
