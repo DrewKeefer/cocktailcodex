@@ -40,7 +40,46 @@ body {
     font-size: 100%;
 }
 
+.listBtn{
+    display: inline-block;
+    border: 1px solid lightgray;
+    color: lightgray;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.15s;
+    background-color: transparent;
+    font-size: 100%;
+}
+
+.recBtn{
+    display: inline-block;
+    border: 1px solid lightgray;
+    color: lightgray;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.15s;
+    background-color: transparent;
+    font-size: 100%;
+    width: 100%;
+}
+
+.addBtn{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
 .btn:hover{
+    color: darkgray;
+    border-color: darkgray;
+}
+
+.listBtn:hover{
+    color: darkgray;
+    border-color: darkgray;
+}
+
+.recBtn:hover{
     color: darkgray;
     border-color: darkgray;
 }
@@ -53,6 +92,16 @@ body {
 .inList:hover{
     color:darkgray;
 }
+
+.currentBank{
+    color: #131313;
+    background-color: lightgray;
+}
+
+.currentBank:hover{
+    color:darkgray;
+}
+
 
 /* Recipe Styler */
 
@@ -84,6 +133,8 @@ ul.ing > li:before{
 .directions{
     font-weight: lighter;
     font-style: oblique;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* Left Column */
@@ -104,7 +155,24 @@ ul.ing > li:before{
     padding-top: 25px;
 }
 
-.addBtn{
+.recHeader{
+    color: lightgrey;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+.listHeader{
+    color: lightgrey;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-top: 25px;
+    margin-bottom: 10px;
     grid-column-start: 1;
     grid-column-end: 4;
 }

@@ -1,4 +1,5 @@
-let apiURL = 'file.json';
+let codexURL = 'codex.json';
+let essentialsURL = 'essentials.json';
 
 // Load JSON function
 
@@ -9,12 +10,83 @@ async function getJson(url) {
 }
 
 async function main() {
-  drinkList = await getJson(apiURL)
-  drinksAll = drinkList.DRINKS  // main object is drinksAll
-  
+  codexList = await getJson(codexURL)
+  essentialsList = await getJson(essentialsURL)
+
+  // by default set to cocktail codex
+  drinksAll = codexList.DRINKS;  // main object is drinksAll
+  var codexButton = document.getElementById('codex');
+  codexButton.classList.toggle('currentBank');
+
+  console.log('let us drink');
 }
 
 main();
+
+
+
+// Switch recipe bank
+
+var listButtons = document.getElementsByClassName('listBtn');
+for (var i = 0; i < listButtons.length; i++) {
+  listButtons[i].addEventListener('click', bankHandler, true);
+}
+
+function bankHandler() {
+  // store button as element
+  var element = this;
+
+  // check if current bank and return if so
+  if (element.classList.contains("currentBank")){
+    return;
+  }
+
+  // remove old bank and toggle to new
+  if (!element.classList.contains("currentBank")){
+
+    // turn off all ingredients
+    ingList = [];
+    for (var i = 1; i < allButtons.length; i++) {
+      if(allButtons[i].classList.contains("inList")){
+        allButtons[i].classList.toggle("inList");
+      }
+    }
+
+    // turn off custom search
+    // check if Button is already toggled
+    if (recButton.classList.contains("inList")){
+      recButton.classList.toggle("inList");
+      recButton.innerHTML = "+ SEARCH";
+
+      // clear button and ingList
+      ingList = [];
+      document.getElementById('matchDrinks').innerHTML = 'Select some ingredients';
+    }
+
+    // toggle new bank
+    var oldBank = document.getElementsByClassName('currentBank');
+    oldBank[0].classList.toggle('currentBank');
+
+    element.classList.toggle('currentBank');
+
+    // update drinksAll with new bank
+
+    var bankName = element.id;
+    console.log(bankName);
+    
+    if (bankName == 'codex'){
+      drinksAll = codexList.DRINKS;
+      listFilter(ingList);
+    }
+    if (bankName == 'essentials'){
+      drinksAll = essentialsList.DRINKS;
+      listFilter(ingList);
+    }
+
+    console.log(drinksAll.length)
+  }
+  
+}
 
 // Ingredients List
 
@@ -54,6 +126,80 @@ function addIngredient() {
     element.classList.toggle("inList");
 
   }
+
+}
+
+// Search By Name
+var recButton = document.getElementById("addRec");
+recButton.addEventListener('click', addRec, true);
+
+function addRec() {
+
+  // store button as element
+  var element = this;
+
+    // check if Button is already toggled
+    if (element.classList.contains("inList")){
+      element.classList.toggle("inList");
+      element.innerHTML = "+ SEARCH";
+
+      // clear button and ingList
+      ingList = [];
+      document.getElementById('matchDrinks').innerHTML = 'Select some ingredients';
+      return;
+    }
+
+  // get input for button
+  var recInput = prompt("Search for Cocktail");
+
+
+  // do nothing on no input
+  if (recInput == '' || recInput == null){
+    console.log('no input');
+    return
+  }
+
+  // toggle Button
+  if (recInput !== null){
+    element.innerHTML = recInput;
+    element.classList.toggle("inList");
+  }
+
+  // turn off all ingredients
+  ingList = [];
+  for (var i = 1; i < allButtons.length; i++) {
+    if(allButtons[i].classList.contains("inList")){
+      allButtons[i].classList.toggle("inList");
+    }
+  }
+
+  // search list by name
+  toSearch = trimString(recInput).toLowerCase();
+
+  var results = []; // stores index of matching drinks in drinksAll
+
+  for(var i=0; i<drinksAll.length;i++){
+      var toFind= drinksAll[i].name.toLowerCase();
+      if(toFind.indexOf(toSearch)!=-1){
+        if(!itemExists(results, drinksAll[i])){
+         results.push(i);
+        }
+      }
+  }
+
+  var results = results.filter(onlyUnique)  // Gets only unique 
+  var ingToList = {
+    name: toSearch,
+    matchDrinks: results
+  };
+
+  // Add cocktails to list
+  ingList.push(ingToList);
+  listFilter(ingList);
+  if(ingToList.matchDrinks.length == 0){
+    document.getElementById('matchDrinks').innerHTML = 'No cocktails found';
+  };
+
 
 }
 
@@ -114,7 +260,7 @@ function fromList(toRemove) {
   listFilter(ingList);
 }
 
-// listFilter
+// listFilter Ingredients
 
 function listFilter (ingList) {
 
@@ -152,8 +298,9 @@ function listFilter (ingList) {
     for(var k=0; k<drinksAll[index].ingredients.length;k++){
       output += '<li>'+drinksAll[index].ingredients[k]+'</li>';
     }
-
-    output += '<li>'+drinksAll[index].garnish+'</li>';
+    if(drinksAll[index].garnish !== ''){
+      output += '<li>'+drinksAll[index].garnish+'</li>';
+    }
     output += '</ul>'
     output += '<div class="directions">'
     output += '<p>'+drinksAll[index].directions+'</p>';
@@ -165,12 +312,16 @@ function listFilter (ingList) {
   }
   document.getElementById('matchDrinks').innerHTML = output;
 
+  // display when no drinks found
+  if(output.length == 0){
+    document.getElementById('matchDrinks').innerHTML = 'No cocktails found';
+  };
+
 
   } // if statement closer
 
 
 }
-
 
 // SEARCH TRIM CODES
 
