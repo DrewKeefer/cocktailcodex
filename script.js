@@ -14,11 +14,8 @@ async function main() {
   essentialsList = await getJson(essentialsURL)
 
   // by default set to cocktail codex
-  drinksAll = codexList.DRINKS;  // main object is drinksAll
   var codexButton = document.getElementById('codex');
   codexButton.classList.toggle('currentBank');
-
-  console.log('let us drink');
 }
 
 main();
@@ -29,14 +26,12 @@ main();
 var listButtons = document.getElementsByClassName('listBtn');
 for (var i = 0; i < listButtons.length; i++) {
   listButtons[i].addEventListener('click', bankHandler, true);
-  listButtons[i].addEventListener('click', mainUpdate, true);
 }
 
 // add listener for allButtons
 var allButtons = document.getElementsByClassName("btn");
 for (var i = 1; i < allButtons.length; i++) {
   allButtons[i].addEventListener('click', listHandler, true);
-  allButtons[i].addEventListener('click', mainUpdate, true);
 }
 
 // add listener to customButton
@@ -57,7 +52,6 @@ var ingList = [];
 // Main Update Function
 
 function mainUpdate() {
-  console.log('button clicked, now updating');
 
   // determine drink bank
 
@@ -78,6 +72,7 @@ function mainUpdate() {
     var recInput = recButton.id.toLowerCase();
     var result = nameSearch(recInput);
   }
+  // search by ingredients if not
   else{
     // SEARCH BY INGREDIENTS
 
@@ -91,8 +86,16 @@ function mainUpdate() {
     var result = ingredientSearch();
   }
 
-  // if no drinks found dipslay message
+
+
+  // if no ingredients selected display message
   if(result == null){
+    document.getElementById('matchDrinks').innerHTML = 'Please select some ingredients';
+    return;
+  }
+
+  // if no drinks found display message
+  if(result.length === 0){
     document.getElementById('matchDrinks').innerHTML = 'No cocktails found';
     return;
   }
@@ -142,6 +145,11 @@ function addIngredient() {
   // get input for button
   var ingInput = prompt("Add Ingredient")
 
+  // do nothing on no input
+  if (ingInput == '' || ingInput == null){
+    return
+  }
+
   // create the button if not empty
   if (ingInput !== null){
     var element = document.createElement("button");
@@ -152,7 +160,6 @@ function addIngredient() {
     element.classList.toggle('inList');
 
     // add listner for new buttons
-    element.addEventListener('click', mainUpdate, true);
     element.addEventListener('click', listHandler, true);
     mainUpdate();
 
@@ -177,7 +184,6 @@ function addRec() {
 
   // do nothing on no input
   if (recInput == '' || recInput == null){
-    console.log('no input');
     return
   }
 
@@ -199,6 +205,7 @@ function listHandler () {
     return;
   }
   this.classList.toggle("inList");
+  mainUpdate()
 }
 
 // bankHandler
@@ -215,6 +222,8 @@ function bankHandler() {
   else{
     element.classList.toggle('currentBank');
   }
+
+  mainUpdate();
 }
 
 // search by ingredients
@@ -245,11 +254,6 @@ function ingredientSearch(){
   // loop through object and find indices common between all of them
 
   var size = Object.keys(ingMatch).length;
-
-  if(size == 0){  // if array is empty, display nothing and return
-    document.getElementById('matchDrinks').innerHTML = 'Please select ingredients or search by name';
-    return
-  };
 
   var arrays = [];
   for (var i=0; i<size; i++){
