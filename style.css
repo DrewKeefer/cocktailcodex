@@ -37,7 +37,7 @@ body {
     text-align: center;
     transition: all 0.15s;
     background-color: transparent;
-    font-size: 100%;
+    font-size: 1vw;
 }
 
 .listBtn{
@@ -48,7 +48,7 @@ body {
     text-align: center;
     transition: all 0.15s;
     background-color: transparent;
-    font-size: 100%;
+    font-size: 1vw;
 }
 
 .recBtn{
@@ -66,6 +66,7 @@ body {
 .addBtn{
     grid-column-start: 1;
     grid-column-end: 4;
+    font-size: 100%;
 }
 
 
@@ -234,5 +235,11 @@ clear: both;
 }
 .right-wrapper{
     grid-template-columns: repeat(auto-fill, 100%);
+}
+.btn{
+    font-size: 100%;
+}
+.listBtn{
+    font-size: 100%;
 }
 }
