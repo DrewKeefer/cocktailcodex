@@ -1,5 +1,6 @@
 let codexURL = 'codex.json';
 let essentialsURL = 'essentials.json';
+let ibaURL = 'iba.json';
 
 // Load JSON function
 
@@ -10,8 +11,9 @@ async function getJson(url) {
 }
 
 async function main() {
-  codexList = await getJson(codexURL)
-  essentialsList = await getJson(essentialsURL)
+  codexList = await getJson(codexURL);
+  essentialsList = await getJson(essentialsURL);
+  ibaList = await getJson(ibaURL);
 
   // by default set to cocktail codex
   var codexButton = document.getElementById('codex');
