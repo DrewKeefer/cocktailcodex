@@ -109,7 +109,7 @@ function mainUpdate() {
     matchDrinks[i] = drinksAll[index];
   }
   // sort drinks alphabetically
-  // matchDrinks.sort( compare );
+    matchDrinks.sort( compare );
 
   // display found drinks
 
@@ -117,21 +117,34 @@ function mainUpdate() {
   for(var i=0; i<result.length;i++){
     // HTML MAKER
 
-    output += '<div>';
-    output += '<div>';
-    output += '<p class="name">'+matchDrinks[i].name+'</p>';
-    output += '<ul class="ing">';
+    // set bank symbol
+    var bankHTML = '';
+    if (matchDrinks[i].bank == 'codex'){
+      bankHTML = 'CC';
+    } else if (matchDrinks[i].bank == 'essentials'){
+      bankHTML = 'EC'
+    } else if (matchDrinks[i].bank == 'IBA'){
+      bankHTML = 'IBA'
+    };
 
-    for(var k=0; k<matchDrinks[i].ingredients.length;k++){
-      output += '<li>'+matchDrinks[i].ingredients[k]+'</li>';
-    }
-    if(matchDrinks[i].garnish !== ''){
-      output += '<li>'+matchDrinks[i].garnish+'</li>';
-    }
+    output += '<div class="drink-block">';
+      output += '<div class="nameHeader">'
+        output += '<p class="name">'+ matchDrinks[i].name +'</p>';
+        output += '<p class="'+ matchDrinks[i].bank +'-outside">'+'</p>';
+        output += '<p class="'+ matchDrinks[i].bank +'">'+ bankHTML +'</p>';
+      output += '</div>'
+
+      output += '<ul class="ing">';
+
+      for(var k=0; k<matchDrinks[i].ingredients.length;k++){
+        output += '<li>'+matchDrinks[i].ingredients[k]+'</li>';
+      }
+      if(matchDrinks[i].garnish !== ''){
+        output += '<li>'+matchDrinks[i].garnish+'</li>';
+      }
     output += '</ul>'
     output += '<div class="directions">'
     output += '<p>'+matchDrinks[i].directions+'</p>';
-    output += '</div>';
     output += '</div>';
     output += '</div>';
 

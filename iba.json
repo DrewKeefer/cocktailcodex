@@ -9,7 +9,8 @@
         "½ ounce Rye Whisky"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Alexander",
@@ -19,7 +20,8 @@
         "1 ounce Fresh Cream"
       ],
       "directions": "Pour all ingredients into cocktail shaker filled with ice cubes. Shake and strain into a chilled cocktail glass.",
-      "garnish": "Sprinkle fresh ground nutmeg on top."
+      "garnish": "Sprinkle fresh ground nutmeg on top.",
+      "bank": "IBA"
     },
     {
       "name": "Americano",
@@ -29,7 +31,8 @@
         "A splash of Soda Water"
       ],
       "directions": "Mix the ingredients directly in an old fashioned glass filled with ice cubes. Add a splash of Soda Water. Stir gently.",
-      "garnish": "Garnish with half orange slice and a lemon zest."
+      "garnish": "Garnish with half orange slice and a lemon zest.",
+      "bank": "IBA"
     },
     {
       "name": "Angel Face",
@@ -39,7 +42,8 @@
         "1 ounce Calvados"
       ],
       "directions": "Pour all ingredients into cocktail shaker filled with ice cubes. Shake and strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Aviation",
@@ -50,7 +54,8 @@
         "1 Bar Spoon Crème de Violette"
       ],
       "directions": "Add all ingredients into a cocktail shaker. Shake with cracked ice and strain into a chilled cocktail glass.",
-      "garnish": "Optional Maraschino Cherry."
+      "garnish": "Optional Maraschino Cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Barracuda",
@@ -62,7 +67,8 @@
         "Top up with Prosecco"
       ],
       "directions": "Pour all ingredients into cocktail shaker except the Prosecco, shake well with ice, strain into chilled highball glass filled with ice and top up with Prosecco.",
-      "garnish": "Pineapple and Cherry, optional mint sprig for additional aroma."
+      "garnish": "Pineapple and Cherry, optional mint sprig for additional aroma.",
+      "bank": "IBA"
     },
     {
       "name": "Bee's Knees",
@@ -73,7 +79,8 @@
         "¾ ounce Fresh Orange Juice"
       ],
       "directions": "Stir honey with lemon and orange juices until it dissolves, add gin and shake with ice. Strain into a chilled cocktail glass.",
-      "garnish": "Optionally garnish with a lemon or orange zest."
+      "garnish": "Optionally garnish with a lemon or orange zest.",
+      "bank": "IBA"
     },
     {
       "name": "Bellini",
@@ -82,7 +89,8 @@
         "1¾ ounces White Peach Puree"
       ],
       "directions": "Pour peach puree into the mixing glass with ice, add the Prosecco wine. Stir gently and pour in a chilled flute glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Between the Sheets",
@@ -93,7 +101,8 @@
         "¾ ounce Fresh Lemon Juice"
       ],
       "directions": "Add all ingredients into a cocktail shaker. Shake with ice and strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Black Russian",
@@ -102,7 +111,8 @@
         "¾ ounce Coffee Liqueur"
       ],
       "directions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir gently.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Bloody Mary",
@@ -114,7 +124,8 @@
         "Tabasco, Celery Salt, Pepper (Up to taste)"
       ],
       "directions": "Stir gently all the ingredients in a mixing glass with ice, pour into rocks glass.",
-      "garnish": "Celery, Lemon Wedge (Optional)"
+      "garnish": "Celery, Lemon Wedge (Optional)",
+      "bank": "IBA"
     },
     {
       "name": "Boulevardier",
@@ -124,7 +135,8 @@
         "1 ounce Sweet Red Vermouth"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into a chilled cocktail glass.",
-      "garnish": "Garnish with orange zest, optionally a lemon zest."
+      "garnish": "Garnish with orange zest, optionally a lemon zest.",
+      "bank": "IBA"
     },
     {
       "name": "Bramble",
@@ -135,7 +147,8 @@
         "½ ounce Crème de Mûre"
       ],
       "directions": "Pour all ingredients into a cocktail shaker except the Crème de Mûre, shake well with ice, strain into chilled old fashioned glass filled with crushed ice, then pour the blackberry liqueur (Crème de Mûre) over the top of the drink, in a circular motion.",
-      "garnish": "Garnish optionally with a lemon slice and blackberries."
+      "garnish": "Garnish optionally with a lemon slice and blackberries.",
+      "bank": "IBA"
     },
     {
       "name": "Brandy Crusta",
@@ -148,7 +161,8 @@
         "2 Dashes Aromatic Bitters"
       ],
       "directions": "Mix together all ingredients with ice cubes in a mixing glass and strain into prepared slim cocktail glass.",
-      "garnish": "Rub a slice of orange (or lemon) around the rim of the glass and dip it in pulverized white sugar, so that the sugar will adhere to the edge of the glass. Carefully curling place the orange/lemon peel around the inside of the glass."
+      "garnish": "Rub a slice of orange (or lemon) around the rim of the glass and dip it in pulverized white sugar, so that the sugar will adhere to the edge of the glass. Carefully curling place the orange/lemon peel around the inside of the glass.",
+      "bank": "IBA"
     },
     {
       "name": "Canchanchara",
@@ -159,7 +173,8 @@
         "1¾ ounces Water"
       ],
       "directions": "Mix honey with water and lime juice and spread the mixture on the bottom and sides of the glass. Add cracked ice, and then the rum. End by energetically stirring from bottom to top.",
-      "garnish": "Lime wedge."
+      "garnish": "Lime wedge.",
+      "bank": "IBA"
     },
     {
       "name": "Caipirinha",
@@ -169,7 +184,8 @@
         "4 Teaspoons White Cane Sugar"
       ],
       "directions": "Place lime and sugar into a double old fashioned glass and muddle gently. Fill the glass with cracked ice and add Cachaça. Stir gently to involve ingredients.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Casino",
@@ -180,7 +196,8 @@
         "2 Dashes Orange Bitters"
       ],
       "directions": "Pour all ingredients into cocktails shaker, shake well with ice, strain into chilled rocks glass with ice.",
-      "garnish": "Garnish with lemon zest and a maraschino cherry."
+      "garnish": "Garnish with lemon zest and a maraschino cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Champagne Cocktail",
@@ -192,7 +209,8 @@
         "1 sugar cube"
       ],
       "directions": "Place the sugar cube with 2 dashes of bitters in a large Champagne glass, add the cognac. Pour gently chilled Champagne.",
-      "garnish": "Garnish with orange zest and maraschino cherry."
+      "garnish": "Garnish with orange zest and maraschino cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Clover Club",
@@ -203,7 +221,8 @@
         "Few Drops of Egg White"
       ],
       "directions": "Pour all ingredients into cocktails shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "Fresh raspberries."
+      "garnish": "Fresh raspberries.",
+      "bank": "IBA"
     },
     {
       "name": "Corpse Reviver #2",
@@ -215,7 +234,8 @@
         "1 dash Absinthe"
       ],
       "directions": "Pour all ingredients into shaker with ice. Shake well and strain in chilled cocktail glass.",
-      "garnish": "Garnish with orange zest"
+      "garnish": "Garnish with orange zest",
+      "bank": "IBA"
     },
     {
       "name": "Cosmopolitan",
@@ -226,7 +246,8 @@
         "1 ounce Cranberry Juice"
       ],
       "directions": "Add all ingredients into a cocktail shaker filled with ice. Shake well and strain into a large cocktail glass.",
-      "garnish": "Garnish with a lemon twist."
+      "garnish": "Garnish with a lemon twist.",
+      "bank": "IBA"
     },
     {
       "name": "Cuba Libre",
@@ -236,7 +257,8 @@
         "¼ ounce Fresh Lime Juice"
       ],
       "directions": "Build all ingredients in a highball glass filled with ice.",
-      "garnish": "Garnish with lime wedge."
+      "garnish": "Garnish with lime wedge.",
+      "bank": "IBA"
     },
     {
       "name": "Daiquiri",
@@ -246,7 +268,8 @@
         "2 Bar Spoons Superfine Sugar"
       ],
       "directions": "In a cocktail shaker add all ingredients. Stir well to dissolve the sugar. Add ice and shake. Strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Dark 'n' stormy",
@@ -255,7 +278,8 @@
         "3¼ ounces Ginger Beer"
       ],
       "directions": "In a highball glass filled with ice pour the ginger beer and top floating with the Rum.",
-      "garnish": "Garnish with a lime wedge or slice."
+      "garnish": "Garnish with a lime wedge or slice.",
+      "bank": "IBA"
     },
     {
       "name": "Dry Martini",
@@ -264,7 +288,8 @@
         "¼ ounce Dry Vermouth"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled martini cocktail glass.",
-      "garnish": "Squeeze oil from lemon peel onto the drink, or garnish with green olives if requested."
+      "garnish": "Squeeze oil from lemon peel onto the drink, or garnish with green olives if requested.",
+      "bank": "IBA"
     },
     {
       "name": "Espresso Martini",
@@ -275,7 +300,8 @@
         "1 strong Espresso"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Fernandito",
@@ -284,7 +310,8 @@
         "Fill up with Cola"
       ],
       "directions": "Pour the Fernet Branca into a double old fashioned glass with ice, fill the glass up with Cola. Gently stir.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "French 75",
@@ -295,7 +322,8 @@
         "2 ounces Champagne"
       ],
       "directions": "Pour all the ingredients, except Champagne, into a shaker. Shake well and strain into a Champagne flute. Top up with Champagne. Stir gently.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "French Connection",
@@ -304,7 +332,8 @@
         "1¼ ounces Amaretto"
       ],
       "directions": "Pour all ingredients directly into an old fashioned glass filled with ice cubes. Stir gently.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "French Martini",
@@ -314,7 +343,8 @@
         "½ ounce Fresh Pineapple Juice"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "Squeeze oil from lemon peel onto the drink."
+      "garnish": "Squeeze oil from lemon peel onto the drink.",
+      "bank": "IBA"
     },
     {
       "name": "Gin Fizz",
@@ -325,7 +355,8 @@
         "Splash of Soda Water"
       ],
       "directions": "Shake all ingredients with ice except soda water. Pour into thin tall Tumbler glass , top with a splash soda water.",
-      "garnish": "Garnish with a lemon slice, optional lemon zest."
+      "garnish": "Garnish with a lemon slice, optional lemon zest.",
+      "bank": "IBA"
     },
     {
       "name": "Golden Dream",
@@ -336,7 +367,8 @@
         "¼ ounce Fresh Cream"
       ],
       "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Grasshopper",
@@ -346,7 +378,8 @@
         "¾ ounce Fresh Cream"
       ],
       "directions": "Pour all ingredients into shaker filled with ice.",
-      "garnish": "N/A, optional mint leaf"
+      "garnish": "N/A, optional mint leaf",
+      "bank": "IBA"
     },
     {
       "name": "Hanky Panky",
@@ -356,7 +389,8 @@
         "¼ ounce Fernet Branca"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
-      "garnish": "Orange zest."
+      "garnish": "Orange zest.",
+      "bank": "IBA"
     },
     {
       "name": "Hemingway Special",
@@ -367,7 +401,8 @@
         "½ ounce Fresh Lime"
       ],
       "directions": "Pour all ingredients into a shaker with ice. Shake well and strain into a large cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Horse's Neck",
@@ -377,7 +412,8 @@
         "Dash of Angostura Bitters (optional)"
       ],
       "directions": "Pour Cognac and ginger ale directly into a highball glass with ice cubes. Stir gently.",
-      "garnish": "Garnish with a rind of one lemon spiral."
+      "garnish": "Garnish with a rind of one lemon spiral.",
+      "bank": "IBA"
     },
     {
       "name": "Illegal",
@@ -391,7 +427,8 @@
         "Few Drops of Egg White (Optional)"
       ],
       "directions": "Pour all ingredients into the shaker. Shake vigorously with ice. Strain into a chilled cocktail glass, or “on the rocks” in a traditional clay or terracotta mug.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Irish Coffee",
@@ -402,7 +439,8 @@
         "1 teaspoon Sugar"
       ],
       "directions": "Warm black coffee is poured into a pre-heated Irish coffee glass. Whiskey and at least one teaspoon of sugar is added and stirred until dissolved. Fresh thick chilled cream is carefully poured over the back of a spoon held just above the surface of the coffee. The layer of cream will float on the coffee without mixing. Plain sugar can be replaced with sugar syrup",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "John Collins",
@@ -413,7 +451,8 @@
         "2 ounces Soda Water"
       ],
       "directions": "Pour all ingredients directly into a highball filled with ice. Stir gently.",
-      "garnish": "Garnish with a lemon slice and maraschino cherry."
+      "garnish": "Garnish with a lemon slice and maraschino cherry.",
+      "bank": "IBA"
     },
     {
       "name": "KIR",
@@ -422,7 +461,8 @@
         "¼ ounce Crème de Cassis"
       ],
       "directions": "Pour Crème de Cassis into glass, top up with white wine.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Last word",
@@ -433,7 +473,8 @@
         "¾ ounce Fresh Lime Juice"
       ],
       "directions": "Add all ingredients into a cocktail shaker. Shake with ice and strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Lemon drop Martini",
@@ -441,7 +482,8 @@
         "1 ounce Vodka Citron 20 ml Triple Sec 15 ml Fresh Lemon Juice"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "Garnish with sugar rim around the glass."
+      "garnish": "Garnish with sugar rim around the glass.",
+      "bank": "IBA"
     },
     {
       "name": "Long Island Ice Tea",
@@ -456,7 +498,8 @@
         "Top with Cola"
       ],
       "directions": "Add all ingredients into a highball glass filled with ice.",
-      "garnish": "Lemon Slice (Optional)"
+      "garnish": "Lemon Slice (Optional)",
+      "bank": "IBA"
     },
     {
       "name": "Mai-Tai",
@@ -469,7 +512,8 @@
         "¼ ounce Simple Syrup"
       ],
       "directions": "Add all ingredients into a shaker with ice. Shake and pour into a double rocks glass or a highball glass.",
-      "garnish": "Garnish with pineapple spear, mint leaves, and lime peel."
+      "garnish": "Garnish with pineapple spear, mint leaves, and lime peel.",
+      "bank": "IBA"
     },
     {
       "name": "Manhattan",
@@ -479,7 +523,8 @@
         "1 dash Angostura Bitters"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into a chilled cocktail glass.",
-      "garnish": "Garnish with a cocktail cherry."
+      "garnish": "Garnish with a cocktail cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Margarita",
@@ -489,7 +534,8 @@
         "½ ounce Freshly Squeezed Lime Juice"
       ],
       "directions": "Add all ingredients into a shaker with ice.",
-      "garnish": "Half salt rim (Optional)"
+      "garnish": "Half salt rim (Optional)",
+      "bank": "IBA"
     },
     {
       "name": "Martinez",
@@ -500,7 +546,8 @@
         "2 Dashes Orange Bitters"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into a chilled cocktail glass.",
-      "garnish": "Lemon zest."
+      "garnish": "Lemon zest.",
+      "bank": "IBA"
     },
     {
       "name": "Mary Pickford",
@@ -511,7 +558,8 @@
         "¼ ounce Grenadine Syrup"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Mimosa",
@@ -520,7 +568,8 @@
         "2½ ounces Prosecco"
       ],
       "directions": "Pour orange juice into a flute glass and gently pour the sparkling wine. Stir gently.",
-      "garnish": "Garnish with an orange twist (optional)."
+      "garnish": "Garnish with an orange twist (optional).",
+      "bank": "IBA"
     },
     {
       "name": "Mint Julep",
@@ -531,7 +580,8 @@
         "2 tsp Water"
       ],
       "directions": "In Julep Stainless Steel Cup gently muddle the mint with sugar and water. Fill the glass with cracked ice, add the Bourbon and stir well until the cup frosts.",
-      "garnish": "Garnish with a mint sprig."
+      "garnish": "Garnish with a mint sprig.",
+      "bank": "IBA"
     },
     {
       "name": "Mojito",
@@ -543,7 +593,8 @@
         "Soda Water"
       ],
       "directions": "Mix mint springs with sugar and lime juice. Add splash of soda water and fill the glass with ice. Pour the rum and top with soda water. Light stir to involve all ingredients.",
-      "garnish": "Garnish with sprigs of mint and slice of lime."
+      "garnish": "Garnish with sprigs of mint and slice of lime.",
+      "bank": "IBA"
     },
     {
       "name": "Monkey Gland",
@@ -554,7 +605,8 @@
         "1 Table Spoon Grenadine Syrup"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Moscow Mule",
@@ -564,7 +616,8 @@
         "¼ ounce Fresh lime juice"
       ],
       "directions": "In a Mule Cup or rocks glass, combine the vodka and ginger beer. Add lime juice and gently stir to involve all ingredients.",
-      "garnish": "Garnish with a lime slice"
+      "garnish": "Garnish with a lime slice",
+      "bank": "IBA"
     },
     {
       "name": "Naked and Famous",
@@ -575,7 +628,8 @@
         "¾ ounce Fresh Lime Juice"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Negroni",
@@ -585,7 +639,8 @@
         "1 ounce Sweet Red Vermouth"
       ],
       "directions": "Pour all ingredients directly into a chilled old fashioned glass filled with ice, Stir gently.",
-      "garnish": "Garnish with a half orange slice."
+      "garnish": "Garnish with a half orange slice.",
+      "bank": "IBA"
     },
     {
       "name": "New York Sour",
@@ -597,7 +652,8 @@
         "½ ounce Red wine (Shiraz or Malbech)"
       ],
       "directions": "Pour all ingredients into the shaker. Shake vigorously with ice. Strain into a chilled rocks glass filled with ice. Float the wine on top.",
-      "garnish": "Garnish with lemon or orange zest with cherry."
+      "garnish": "Garnish with lemon or orange zest with cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Old Cuban",
@@ -610,7 +666,8 @@
         "2 ounces Brut Champagne or Prosecco"
       ],
       "directions": "Pour all ingredients into cocktail shaker except the wine, shake well with ice, strain into chilled elegant cocktail glass. Top up with the sparkling wine.",
-      "garnish": "Garnish with mint springs."
+      "garnish": "Garnish with mint springs.",
+      "bank": "IBA"
     },
     {
       "name": "Old Fashioned",
@@ -621,7 +678,8 @@
         "Few Dashes Plain Water"
       ],
       "directions": "Place sugar cube in old fashioned glass and saturate with bitter, add few dashes of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Stir gently.",
-      "garnish": "Garnish with an orange slice or zest, and a cocktail cherry."
+      "garnish": "Garnish with an orange slice or zest, and a cocktail cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Paloma",
@@ -632,7 +690,8 @@
         "3¼ ounces Pink Grapefruit Soda"
       ],
       "directions": "Poor the tequila into a highball glass, squeeze the lime juice. Add ice and salt, fill up pink grapefruit soda. Stir gently.",
-      "garnish": "Garnish with a slice of lime."
+      "garnish": "Garnish with a slice of lime.",
+      "bank": "IBA"
     },
     {
       "name": "Paper Plane",
@@ -643,7 +702,8 @@
         "1 ounce Fresh Lemon Juice"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Paradise",
@@ -653,7 +713,8 @@
         "½ ounce Fresh Orange Juice"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Penicillin",
@@ -665,7 +726,8 @@
         "2-3 quarter size Sliced Fresh Ginger"
       ],
       "directions": "Muddle fresh ginger in a shaker and add the remaining ingredients, except for the Islay single malt whiskey. Fill the shaker with ice and shake. Double-strain into a chilled old fashioned glass with ice. Float the single malt whisky on top.",
-      "garnish": "Garnish with candied ginger."
+      "garnish": "Garnish with candied ginger.",
+      "bank": "IBA"
     },
     {
       "name": "Pina Colada",
@@ -675,7 +737,8 @@
         "1¾ ounces Fresh Pineapple Juice"
       ],
       "directions": "Blend all the ingredients with ice in an electric blender, pour into a large glass, and serve with straws.",
-      "garnish": "Garnish with a slice of pineapple with a cocktail cherry."
+      "garnish": "Garnish with a slice of pineapple with a cocktail cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Pisco Sour",
@@ -686,7 +749,8 @@
         "1 Raw Egg White"
       ],
       "directions": "Add all ingredients into a shaker with ice.",
-      "garnish": "Few dashes of Amargo bitters on top as an aromatic garnish."
+      "garnish": "Few dashes of Amargo bitters on top as an aromatic garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Planter's Punch",
@@ -696,7 +760,8 @@
         "1 ounce Sugar Cane Juice"
       ],
       "directions": "Pour all ingredients directly in a small tumbler or a typical terracotta glass.",
-      "garnish": "Garnish with orange zest."
+      "garnish": "Garnish with orange zest.",
+      "bank": "IBA"
     },
     {
       "name": "Porto Flip",
@@ -706,7 +771,8 @@
         "¼ ounce Egg Yolk"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
-      "garnish": "Sprinkle with fresh ground nutmeg."
+      "garnish": "Sprinkle with fresh ground nutmeg.",
+      "bank": "IBA"
     },
     {
       "name": "Ramos Fizz",
@@ -722,7 +788,8 @@
         "Soda Water"
       ],
       "directions": "Pour all ingredients except soda water in a cocktail shaker with ice, Shake for two minutes, double strain in a glass, pour the drink back in the shaker, and hard shake without ice for one minute. Strain into a highball glass, top up with soda.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Russian Spring Punch",
@@ -734,7 +801,8 @@
         "Top up Sparkling wine"
       ],
       "directions": "Pour all ingredients into a cocktail shaker except the sparkling wine, shake well with ice, strain into a chilled tall tumbler glass filled with ice, and top up with sparkling wine.",
-      "garnish": "Garnish with blackberries and optionally a lemon slice as well."
+      "garnish": "Garnish with blackberries and optionally a lemon slice as well.",
+      "bank": "IBA"
     },
     {
       "name": "Rusty Nail",
@@ -743,7 +811,8 @@
         "¾ ounce Drambuie"
       ],
       "directions": "Pour all ingredients directly into an old fashioned glass filled with ice. Stir gently.",
-      "garnish": "Garnish with lemon zest."
+      "garnish": "Garnish with lemon zest.",
+      "bank": "IBA"
     },
     {
       "name": "Sazerac",
@@ -754,7 +823,8 @@
         "2 Dashes Peychaud's Bitters"
       ],
       "directions": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice and set it aside. Stir the remaining ingredients over ice in a mixing glass. Discard the ice and any excess absinthe from the prepared glass, strain the mixed drink into the glass.",
-      "garnish": "Garnish with lemon zest."
+      "garnish": "Garnish with lemon zest.",
+      "bank": "IBA"
     },
     {
       "name": "Sea Breeze",
@@ -764,7 +834,8 @@
         "1 ounce Grapefruit Juice"
       ],
       "directions": "Build all ingredients in a highball glass filled with ice.",
-      "garnish": "Garnish with orange zest and cherry"
+      "garnish": "Garnish with orange zest and cherry",
+      "bank": "IBA"
     },
     {
       "name": "Sex on the Beach",
@@ -775,7 +846,8 @@
         "1¼ ounces Cranberry Juice"
       ],
       "directions": "Build all ingredients in a highball glass filled with ice.",
-      "garnish": "Garnish with a half orange slice."
+      "garnish": "Garnish with a half orange slice.",
+      "bank": "IBA"
     },
     {
       "name": "Sidecar",
@@ -785,7 +857,8 @@
         "¾ ounce Fresh Lemon Juice"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Singapore Sling",
@@ -800,7 +873,8 @@
         "A dash of Angostura bitters"
       ],
       "directions": "Pour all ingredients into a cocktail shaker filled with ice cubes. Shake well. Strain into Hurricane glass.",
-      "garnish": "Garnish with pineapple and maraschino cherry"
+      "garnish": "Garnish with pineapple and maraschino cherry",
+      "bank": "IBA"
     },
     {
       "name": "Southside",
@@ -812,7 +886,8 @@
         "Few Drops of Egg White (Optional)"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, double-strain into chilled cocktail glass.",
-      "garnish": "Garnish with mint springs."
+      "garnish": "Garnish with mint springs.",
+      "bank": "IBA"
     },
     {
       "name": "Spicy Fifty",
@@ -824,7 +899,8 @@
         "2 thin Slices Red Chili Pepper"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, double-strain into chilled cocktail glass.",
-      "garnish": "Garnish with a red chili pepper"
+      "garnish": "Garnish with a red chili pepper",
+      "bank": "IBA"
     },
     {
       "name": "Spritz",
@@ -834,7 +910,8 @@
         "Splash of Soda water"
       ],
       "directions": "Build all ingredients into a wine glass filled with ice. Stir gently.",
-      "garnish": "Garnish with a slice of orange."
+      "garnish": "Garnish with a slice of orange.",
+      "bank": "IBA"
     },
     {
       "name": "Stinger",
@@ -843,7 +920,8 @@
         "¾ ounce White Crème de Menthe"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled martini cocktail glass.",
-      "garnish": "Optional mint leave."
+      "garnish": "Optional mint leave.",
+      "bank": "IBA"
     },
     {
       "name": "Suffering Bastard",
@@ -855,7 +933,8 @@
         "Top up Ginger beer"
       ],
       "directions": "Pour all ingredients into a cocktail shaker except the ginger beer, shake well with ice, Pour unstrained into a Collins glass or in the original S. Bastard mug and top up with ginger beer.",
-      "garnish": "Garnish with mint springs and optionally an orange slice as well."
+      "garnish": "Garnish with mint springs and optionally an orange slice as well.",
+      "bank": "IBA"
     },
     {
       "name": "Tequila Sunrise",
@@ -865,7 +944,8 @@
         "½ ounce Grenadine Syrup"
       ],
       "directions": "Pour tequila and orange juice directly into highball glass filled with ice cubes. Add the grenadine syrup to create chromatic effect (sunrise), do not stir.",
-      "garnish": "Garnish with half orange slice or an orange zest"
+      "garnish": "Garnish with half orange slice or an orange zest",
+      "bank": "IBA"
     },
     {
       "name": "Tipperary",
@@ -876,7 +956,8 @@
         "2 Dashes Angostura Bitters"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled martini cocktail glass.",
-      "garnish": "Garnish with a slice of orange."
+      "garnish": "Garnish with a slice of orange.",
+      "bank": "IBA"
     },
     {
       "name": "Tommy's Margarita",
@@ -886,7 +967,8 @@
         "1 ounce Agave Syrup (1/2 Water + 1/2 Agave Nectar)"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled rocks glass filled with ice.",
-      "garnish": "Garnish with a lime slice."
+      "garnish": "Garnish with a lime slice.",
+      "bank": "IBA"
     },
     {
       "name": "Tuxedo",
@@ -898,7 +980,8 @@
         "3 Dashes Orange Bitters"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled martini cocktail glass.",
-      "garnish": "Garnish with cherry and lemon zest"
+      "garnish": "Garnish with cherry and lemon zest",
+      "bank": "IBA"
     },
     {
       "name": "VE.N.TO",
@@ -910,7 +993,8 @@
         "¼ ounce Egg White (Optional)"
       ],
       "directions": "Pour all ingredients into the shaker. Shake vigorously with ice. Strain into a chilled small tumbler glass filled with ice.",
-      "garnish": "Garnish with lemon zest and white grapes."
+      "garnish": "Garnish with lemon zest and white grapes.",
+      "bank": "IBA"
     },
     {
       "name": "Vesper",
@@ -920,7 +1004,8 @@
         "¼ ounce Lillet Blanc"
       ],
       "directions": "Pour all ingredients into a cocktail shaker filled with ice cubes. Shake and strain into a chilled cocktail glass.",
-      "garnish": "Lemon zest"
+      "garnish": "Lemon zest",
+      "bank": "IBA"
     },
     {
       "name": "Vieux Carrè",
@@ -932,7 +1017,8 @@
         "2 Dashes Peychaud's Bitters"
       ],
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into a chilled cocktail glass.",
-      "garnish": "Garnish with orange zest and maraschino cherry."
+      "garnish": "Garnish with orange zest and maraschino cherry.",
+      "bank": "IBA"
     },
     {
       "name": "Whiskey Sour",
@@ -943,7 +1029,8 @@
         "¾ ounce Egg White (Optional)"
       ],
       "directions": "Pour all ingredients into a cocktail shaker filled with ice. Shake well. Strain into cobbler glass. If served “On the rocks”, strain ingredients into an old fashioned glass filled with ice.",
-      "garnish": "Garnish with a half orange slice and maraschino cherry, optionally use orange zest."
+      "garnish": "Garnish with a half orange slice and maraschino cherry, optionally use orange zest.",
+      "bank": "IBA"
     },
     {
       "name": "White Lady",
@@ -953,7 +1040,8 @@
         "¾ ounce Fresh Lemon Juice"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Yellow Bird",
@@ -964,7 +1052,8 @@
         "½ ounce Fresh Lime Juice"
       ],
       "directions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
-      "garnish": "No garnish."
+      "garnish": "No garnish.",
+      "bank": "IBA"
     },
     {
       "name": "Zombie",
@@ -980,7 +1069,8 @@
         "6 drops Pernod"
       ],
       "directions": "Add all ingredients into an electric blender with 170 grams of cracked ice. With pulse bottom blend for a few seconds. Serve in a tall tumbler glass. Note: Donn's Mix: 2 parts of fresh yellow grapefruit and 1 part of cinnamon syrup.",
-      "garnish": "Garnish with mint leaves."
+      "garnish": "Garnish with mint leaves.",
+      "bank": "IBA"
     }
   ]
 }
