@@ -479,7 +479,9 @@
     {
       "name": "Lemon drop Martini",
       "ingredients": [
-        "1 ounce Vodka Citron 20 ml Triple Sec 15 ml Fresh Lemon Juice"
+        "1 ounce Vodka Citron",
+        "20 ml Triple Sec",
+        "15 ml Fresh Lemon Juice"
       ],
       "directions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
       "garnish": "Garnish with sugar rim around the glass.",

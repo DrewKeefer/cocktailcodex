@@ -60,7 +60,7 @@ function mainUpdate() {
   drinksAll = [];
   for (var i = 0; i < listButtons.length; i++) {
     if (listButtons[i].classList.contains('currentBank')){
-      listString = listButtons[i].id + 'List.DRINKS';
+      listString = listButtons[i].id + 'List.DRINKS';;
       toAdd = (eval(listString));
       drinksAll = drinksAll.concat(toAdd);
     }
